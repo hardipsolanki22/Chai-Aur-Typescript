@@ -1,0 +1,30 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/typesInTs.js",
+    "dev": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardipsolanki22/Chai-Aur-Typescript.git"
+  },
+  "keywords": [
+    "chai",
+    "typescript",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardipsolanki22/Chai-Aur-Typescript/issues"
+  },
+  "homepage": "https://github.com/hardipsolanki22/Chai-Aur-Typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

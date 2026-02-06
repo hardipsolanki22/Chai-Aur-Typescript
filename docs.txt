@@ -1,0 +1,22 @@
+* Why use typescript
+  - For type checking
+  - developer experinace 
+  - scalibiliyt
+
+* Behined the scene of typescript
+    - .ts file -> lexer (Identifier, keywords)-> parser (AST - Tree stucture) -> Binder 
+    (stucture likes type, flow nodes -if..else..) -> Checker (syntax check) 
+    -> Emmiter (remove typescript) -> .js, .d.ts 
+
+
+* Local Installation of Typescript
+1. npm init for install typescript as a dev dependency
+    - npm init
+    - npm i -D typescript
+2. Configure typescript 
+    - npx tsc --init 
+3. Run Typescript file 
+    - npx tsc
+    See same name of src folder , js file is created inside dist folder
+4. Run this js file
+    - node file name.js
