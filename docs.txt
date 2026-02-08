@@ -20,3 +20,11 @@
     See same name of src folder , js file is created inside dist folder
 4. Run this js file
     - node file name.js
+
+* .d.ts files that give suggetion and erorr 
+    -> Koi pan library install karo likes axios, express and 
+       jo tena types na male (. ctr+space) suggetion show na thay to
+            - npm i -D @types/library-name
+       command  run kary type ne install kari shkay che
+    -> jo te pan na hoy to 
+         - library-name.d.ts file create kari shakay

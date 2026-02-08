@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./dist/typesInTs.js",
+    "start": "node ./dist/opp.js",
     "dev": "npx tsc"
   },
   "repository": {
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/hardipsolanki22/Chai-Aur-Typescript#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.4"
   }
 }
